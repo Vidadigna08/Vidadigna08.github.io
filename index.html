@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albergue</title>
+    <link rel="shortcut icon" href="./images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container" id="inicio">
+            <div class="nav__logo">
+                <h2 class="nav__title">Vida digna</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#acerca de" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#catalogo" class="nav__links">Catalogo</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Conoce acerca de nuestros perritos en nuestra pagina web.</h1>
+            <p class="hero__paragraph">Adopta a tu perrito</p>
+        </section>
+    </header>
+    <main>
+        <section class="container about" id="acerca de">
+            <h2 class="subtitle">Cuidados para tu mascota</h2>
+            <p class="about__paragraph">Todo lo necesario y obligatorio para un buen cuidado de tu mascota y evitar posibles contagios o enfermedades.</p>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/1.png" class="about__icon">
+                    <h3 class="about__title">Botiquin</h3>
+                    <p class="about__paragrah">Ten botiquin de primeros auxilios para un mejor cuidado y protección a tu mascota.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/2.png" class="about__icon">
+                    <h3 class="about__title">Vacunas</h3>
+                    <p class="about__paragrah">Manten al dia las vacunas contra enfermedades de tu mascota para prevenir posibles contagios.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/3.png" class="about__icon">
+                    <h3 class="about__title">Alimentación</h3>
+                    <p class="about__paragrah">Una buena alimentación a tu mascota hara que no obtenga enfermedades con el tiempo.</p>
+                </article>
+            </div>
+        </section>
+        <section class="testimony" id="catalogo">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Perrito rescatado</h2>
+                        <p class="testimony__review">Perrito que se encontraba en desolacion y maltratado por las calles, se rescato y con el tiempo ira mejorando su salud. Por el momento no cuenta con sus vacunas pero con el tiempo y su pronta recuperacion estara de la mejora manera.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/perro1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Perrito en adopcion</h2>
+                        <p class="testimony__review">Perrito que ya paso de lo peor a lo mejor, cuenta con alta medica para poderse dar en adopcion a una familia que pueda darle una mejor vida.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/perro2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Perrito en adopcion</h2>
+                        <p class="testimony__review">Perrito que ya paso de lo peor a lo mejor, cuenta con alta medica para poderse dar en adopcion a una familia que pueda darle una mejor vida.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/perro3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Perrito en adopcion</h2>
+                        <p class="testimony__review">Perrito que ya paso de lo peor a lo mejor, cuenta con alta medica para poderse dar en adopcion a una familia que pueda darle una mejor vida.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/perro4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Perrito rescatado</h2>
+                        <p class="testimony__review">Perrito que se encontraba en malas condiciones de vida pero ahora cuenta con cuidados de alta gama y super sano con todas sus vacunas contra enfermedades</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/perro5.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph"></p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuáles son los requisitos para adquirir tu mascota?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Los requisitos para adoptar un perro pueden variar, pero generalmente se necesitan los siguientes.
+                             Ser mayor de edad, la persona interesada en adoptar un perro debe ser mayor de edad, dependiendo del país, debe tener 18 o 21 años. </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cada cuánto es necesario una revición médica?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Cuando tu mascota comienza a envejecer es probable que presente algunos temas de salud.
+                             Para detectarlos correctamente y a tiempo se recomienda que los lleves cada 6 meses a revisión.
+                              En caso de alguna enfermedad tendrás que llevar a tu mascota de forma más frecuente, dependiendo lo que indique el médico veterinario.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué comida darle a tu mascota?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Es muy importante que alimentes a tus mascotas con huesos crudos, NO COCINADOS.
+                             Para los perros, es mejor no utilizar los huesos crudos de las patas. Son preferibles, en cambio,
+                              los huesos como el cuello, la mandíbula, el cráneo, los huesos de la espalda, las costillas, y la pechuga.</p>
+                    </div>
+                </article>
+            </section>
+            <section class="questions__offer">
+                <h2 class="subtitle">Recuerda que</h2>
+                <p class="questions__copy">Fruto del cariño y respeto hacia los animales es del buen cuidado que puedes ofrecerles.
+                     Sabemos y conocemos, la importancia que tiene una mascota para una familia, pues con el tiempo,
+                      termina convirtiéndose en un miembro más. Por eso nos especializamos en darles lo mejor a ellos</p>
+            </section>
+        </section>
+    </main>
+    <footer class="footer" id="contacto">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Albergue de mascotas</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#inicio" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#acerca de" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#catalogo" class="nav__links">Catalogo</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#contacto" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Conoce todo acerca de tus mascotas</h2>
+            </form>
+        </section>
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/profile.php?id=100013604136863" class="footer__icons"><img src="./images/bxl-facebook-square.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/elizabeth__alonzo/" class="footer__icons"><img src="./images/bxl-instagram-alt.svg" class="footer__img"></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B50242160319&text&type=phone_number&app_absent=0" class="footer__icons"><img src="./images/bxl-whatsapp-square.svg" class="footer__img"></a>
+            </div>
+            <h3 class="footer__copyright">Vida digna &copy; Jazmin Alonzo</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
